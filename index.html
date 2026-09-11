@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description"
+            content="Teu Estoque — solução demonstrativa de gerenciamento de estoque para pequenos negócios.">
+
+        <title>Teu Estoque | Controle de Estoque</title>
+
+        <link rel="stylesheet" href="estilo.css">
+
+        <!-- AOS 2.3.1 -->
+        <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+    </head>
+
+    <body>
+
+        <header class="header" id="inicio">
+            <nav class="nav" aria-label="Navegação principal">
+
+                <a class="logo" href="#inicio" aria-label="Teu Estoque - voltar ao início">
+                    Teu Estoque
+                </a>
+
+                <button class="menu-toggle" type="button" aria-label="Abrir menu de navegação" aria-expanded="false"
+                    aria-controls="menu-principal">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </button>
+
+                <ul class="nav-list" id="menu-principal">
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#recursos">Recursos</a></li>
+                    <li><a href="#como-funciona">Como funciona</a></li>
+                    <li><a href="#vantagens">Vantagens</a></li>
+                    <li><a href="#faq">FAQ</a></li>
+                </ul>
+
+                <a class="nav-cta" href="#apresentacao">
+                    Conhecer o sistema
+                </a>
+
+            </nav>
+        </header>
+
+        <main>
+
+            <!-- HERO -->
+            <section class="hero" aria-labelledby="hero-titulo">
+                <div class="container">
+
+                    <div class="hero-conteudo" data-aos="fade-right">
+
+                        <h1 id="hero-titulo">
+                            Seu estoque organizado. Seu negócio sob controle.
+                        </h1>
+
+                        <p>
+                            O Teu Estoque é uma solução demonstrativa pensada para pequenos negócios que precisam
+                            acompanhar
+                            produtos, movimentações e níveis de estoque de forma simples e organizada.
+                        </p>
+
+                    </div>
+                    <div class="hero-acoes">
+                        <a class="botao botao-principal" href="#recursos">
+                            Conhecer recursos
+                        </a>
+
+                        <a class="botao botao-secundario" href="#painel">
+                            Ver demonstração
+                        </a>
+                    </div>
+
+                </div>
+
+                <div class="hero-interface" data-aos="fade-left"
+                    aria-label="Representação visual demonstrativa do painel Teu Estoque">
+
+                    <div class="mockup-painel">
+
+                        <div class="mockup-topo">
+                            <strong>Teu Estoque</strong>
+                            <span>Painel</span>
+                        </div>
+
+                        <div class="mockup-resumo">
+
+                            <article>
+                                <span>Produtos</span>
+                                <strong>48</strong>
+                            </article>
+
+                            <article>
+                                <span>Estoque baixo</span>
+                                <strong>6</strong>
+                            </article>
+
+                            <article>
+                                <span>Sem estoque</span>
+                                <strong>3</strong>
+                            </article>
+
+                        </div>
+
+                        <div class="mockup-produtos">
+                            <p><strong>Camiseta básica</strong> — 18 unidades</p>
+                            <p><strong>Caneca branca</strong> — 6 unidades</p>
+                            <p><strong>Garrafa térmica</strong> — 0 unidades</p>
+                        </div>
+
+                        <small>Dados fictícios de demonstração.</small>
+
+                    </div>
+                </div>
+
+            </section>
+
+            <!-- INDICADORES -->
+            <section class="indicadores" aria-label="Características do Teu Estoque">
+
+                <div class="indicadores-lista">
+
+                    <article class="indicador" data-aos="fade-up">
+                        <h2>Controle centralizado</h2>
+                        <p>Produtos e informações reunidos em uma única visão.</p>
+                    </article>
+
+                    <article class="indicador" data-aos="fade-up">
+                        <h2>Movimentações organizadas</h2>
+                        <p>Entradas e saídas apresentadas de forma clara.</p>
+                    </article>
+
+                    <article class="indicador" data-aos="fade-up">
+                        <h2>Atenção ao estoque baixo</h2>
+                        <p>Itens com pouca quantidade recebem destaque visual.</p>
+                    </article>
+
+                    <article class="indicador" data-aos="fade-up">
+                        <h2>Consulta rápida</h2>
+                        <p>Encontre produtos e verifique suas quantidades com facilidade.</p>
+                    </article>
+
+                </div>
+
+            </section>
+
+            <!-- APRESENTAÇÃO -->
+            <section class="apresentacao" id="apresentacao" aria-labelledby="apresentacao-titulo">
+
+                <div class="apresentacao-interface" data-aos="fade-right"
+                    aria-label="Representação demonstrativa de uma visão geral do estoque">
+
+                    <div class="interface-resumo">
+
+                        <div>
+                            <strong>Visão do estoque</strong>
+                            <span>Resumo demonstrativo</span>
+                        </div>
+
+                        <ul>
+                            <li>Produtos disponíveis</li>
+                            <li>Produtos com estoque baixo</li>
+                            <li>Produtos sem estoque</li>
+                        </ul>
+
+                    </div>
+
+                </div>
+
+                <div class="apresentacao-conteudo" data-aos="fade-left">
+
+                    <h2 id="apresentacao-titulo">
+                        Controle de estoque sem complicação
+                    </h2>
+
+                    <p>
+                        Acompanhar produtos não precisa ser uma tarefa confusa. O Teu Estoque apresenta as informações
+                        essenciais de forma organizada para facilitar a rotina de pequenos negócios.
+                    </p>
+
+                    <p>
+                        Com uma visão simples do estoque, é possível identificar quantidades disponíveis, produtos que
+                        precisam de atenção e movimentações registradas.
+                    </p>
+
+                </div>
+
+            </section>
+
+            <!-- RECURSOS -->
+            <section class="recursos" id="recursos" aria-labelledby="recursos-titulo">
+
+                <header class="secao-cabecalho" data-aos="fade-up">
+                    <h2 id="recursos-titulo">Recursos principais</h2>
+                </header>
+
+                <div class="recursos-grid">
+
+                    <article class="recurso-card" data-aos="fade-up">
+                        <h3>Cadastro de produtos</h3>
+                        <p>
+                            Organize os itens do negócio com nome, categoria, quantidade e informações essenciais.
+                        </p>
+                    </article>
+
+                    <article class="recurso-card" data-aos="fade-up">
+                        <h3>Entradas e saídas</h3>
+                        <p>
+                            Visualize movimentações de estoque para acompanhar alterações nas quantidades dos produtos.
+                        </p>
+                    </article>
+
+                    <article class="recurso-card" data-aos="fade-up">
+                        <h3>Estoque mínimo</h3>
+                        <p>
+                            Destaque produtos que atingiram uma quantidade reduzida e precisam de atenção.
+                        </p>
+                    </article>
+
+                    <article class="recurso-card" data-aos="fade-up">
+                        <h3>Busca de produtos</h3>
+                        <p>
+                            Localize rapidamente um item e consulte suas principais informações.
+                        </p>
+                    </article>
+
+                </div>
+
+            </section>
+
+            <!-- PAINEL DE DEMONSTRAÇÃO -->
+            <section class="painel" id="painel" aria-labelledby="painel-titulo">
+
+                <header class="secao-cabecalho" data-aos="fade-up">
+
+                    <h2 id="painel-titulo">
+                        Tudo o que importa em uma única visão
+                    </h2>
+
+                    <p>
+                        A demonstração abaixo utiliza dados fictícios apenas para representar como as informações
+                        poderiam aparecer no Teu Estoque.
+                    </p>
+
+                </header>
+
+                <div class="painel-demo" data-aos="fade-up">
+
+                    <header class="painel-demo-cabecalho">
+                        <div>
+                            <strong>Painel de estoque</strong>
+                            <span>Dados fictícios de demonstração</span>
+                        </div>
+                    </header>
+
+                    <div class="painel-indicadores">
+
+                        <article>
+                            <span>Produtos cadastrados</span>
+                            <strong>48</strong>
+                        </article>
+
+                        <article>
+                            <span>Produtos disponíveis</span>
+                            <strong>39</strong>
+                        </article>
+
+                        <article>
+                            <span>Estoque baixo</span>
+                            <strong>6</strong>
+                        </article>
+
+                        <article>
+                            <span>Sem estoque</span>
+                            <strong>3</strong>
+                        </article>
+
+                    </div>
+
+                    <div class="tabela-container">
+
+                        <table>
+
+                            <caption>
+                                Dados fictícios de demonstração
+                            </caption>
+
+                            <thead>
+                                <tr>
+                                    <th scope="col">Produto</th>
+                                    <th scope="col">Categoria</th>
+                                    <th scope="col">Quantidade</th>
+                                    <th scope="col">Status</th>
+                                </tr>
+                            </thead>
+
+                            <tbody>
+
+                                <tr>
+                                    <th scope="row">Camiseta básica</th>
+                                    <td>Vestuário</td>
+                                    <td>18</td>
+                                    <td>
+                                        <span class="status status-disponivel">
+                                            Disponível
+                                        </span>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <th scope="row">Caneca branca</th>
+                                    <td>Utilidades</td>
+                                    <td>6</td>
+                                    <td>
+                                        <span class="status status-baixo">
+                                            Estoque baixo
+                                        </span>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <th scope="row">Caderno A5</th>
+                                    <td>Papelaria</td>
+                                    <td>23</td>
+                                    <td>
+                                        <span class="status status-disponivel">
+                                            Disponível
+                                        </span>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <th scope="row">Ecobag</th>
+                                    <td>Acessórios</td>
+                                    <td>4</td>
+                                    <td>
+                                        <span class="status status-baixo">
+                                            Estoque baixo
+                                        </span>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <th scope="row">Garrafa térmica</th>
+                                    <td>Utilidades</td>
+                                    <td>0</td>
+                                    <td>
+                                        <span class="status status-sem-estoque">
+                                            Sem estoque
+                                        </span>
+                                    </td>
+                                </tr>
+
+                            </tbody>
+
+                        </table>
+
+                    </div>
+
+                    <p class="aviso-demonstracao">
+                        <strong>
+                            Todos os dados apresentados acima são fictícios e utilizados somente para demonstração
+                            acadêmica.
+                        </strong>
+                    </p>
+
+                </div>
+
+            </section>
+
+            <!-- COMO FUNCIONA -->
+            <section class="como-funciona" id="como-funciona" aria-labelledby="como-funciona-titulo">
+
+                <header class="secao-cabecalho" data-aos="fade-up">
+                    <h2 id="como-funciona-titulo">
+                        Organize seu estoque em três etapas
+                    </h2>
+                </header>
+
+                <ol class="etapas">
+
+                    <li class="etapa" data-aos="fade-up">
+                        <span class="etapa-numero">01</span>
+                        <h3>Cadastre seus produtos</h3>
+                        <p>
+                            Adicione os itens que deseja acompanhar e registre suas informações principais.
+                        </p>
+                    </li>
+
+                    <li class="etapa" data-aos="fade-up">
+                        <span class="etapa-numero">02</span>
+                        <h3>Registre as movimentações</h3>
+                        <p>
+                            Atualize o estoque quando houver entrada ou saída de produtos.
+                        </p>
+                    </li>
+
+                    <li class="etapa" data-aos="fade-up">
+                        <span class="etapa-numero">03</span>
+                        <h3>Acompanhe as quantidades</h3>
+                        <p>
+                            Consulte o painel e identifique rapidamente produtos disponíveis, baixos ou sem estoque.
+                        </p>
+                    </li>
+
+                </ol>
+
+            </section>
+
+            <!-- VANTAGENS -->
+            <section class="vantagens" id="vantagens" aria-labelledby="vantagens-titulo">
+
+                <div class="vantagens-conteudo" data-aos="fade-right">
+
+                    <h2 id="vantagens-titulo">Vantagens</h2>
+
+                    <div class="vantagens-lista">
+
+                        <article>
+                            <h3>Mais organização</h3>
+                            <p>
+                                Centralize as principais informações dos produtos e evite controles espalhados.
+                            </p>
+                        </article>
+
+                        <article>
+                            <h3>Consulta mais rápida</h3>
+                            <p>
+                                Tenha uma visão clara das quantidades disponíveis e encontre produtos com facilidade.
+                            </p>
+                        </article>
+
+                        <article>
+                            <h3>Atenção aos itens críticos</h3>
+                            <p>
+                                Identifique visualmente produtos com pouca quantidade ou sem estoque.
+                            </p>
+                        </article>
+
+                    </div>
+
+                </div>
+
+                <div class="vantagens-interface" data-aos="fade-left"
+                    aria-label="Representação visual dos estados dos produtos">
+
+                    <div class="produto-resumo">
+
+                        <article>
+                            <span>Caderno A5</span>
+                            <strong>23 unidades</strong>
+                            <span class="status status-disponivel">Disponível</span>
+                        </article>
+
+                        <article>
+                            <span>Ecobag</span>
+                            <strong>4 unidades</strong>
+                            <span class="status status-baixo">Estoque baixo</span>
+                        </article>
+
+                        <article>
+                            <span>Garrafa térmica</span>
+                            <strong>0 unidades</strong>
+                            <span class="status status-sem-estoque">Sem estoque</span>
+                        </article>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+            <!-- DEPOIMENTOS -->
+            <section class="depoimentos" aria-labelledby="depoimentos-titulo">
+
+                <header class="secao-cabecalho" data-aos="fade-up">
+
+                    <h2 id="depoimentos-titulo">
+                        Exemplos de experiência de uso
+                    </h2>
+
+                    <p>
+                        Os relatos abaixo são fictícios e existem apenas para demonstrar como uma seção de depoimentos
+                        poderia aparecer no projeto.
+                    </p>
+
+                </header>
+
+                <div class="depoimentos-grid">
+
+                    <article class="depoimento-card" data-aos="fade-up">
+
+                        <h3>Loja de roupas — cenário fictício</h3>
+
+                        <blockquote>
+                            <p>
+                                “Consigo visualizar quais peças ainda estão disponíveis e quais precisam de reposição
+                                sem procurar em várias anotações.”
+                            </p>
+                        </blockquote>
+
+                        <p>
+                            <strong>Depoimento fictício para demonstração.</strong>
+                        </p>
+
+                    </article>
+
+                    <article class="depoimento-card" data-aos="fade-up">
+
+                        <h3>Papelaria — cenário fictício</h3>
+
+                        <blockquote>
+                            <p>
+                                “Com muitos tipos de produtos, uma visão organizada das quantidades ajuda a identificar
+                                rapidamente o que está acabando.”
+                            </p>
+                        </blockquote>
+
+                        <p>
+                            <strong>Depoimento fictício para demonstração.</strong>
+                        </p>
+
+                    </article>
+
+                    <article class="depoimento-card" data-aos="fade-up">
+
+                        <h3>Mercado de bairro — cenário fictício</h3>
+
+                        <blockquote>
+                            <p>
+                                “O painel facilita a consulta dos itens e deixa mais visível quando algum produto está
+                                com quantidade baixa.”
+                            </p>
+                        </blockquote>
+
+                        <p>
+                            <strong>Depoimento fictício para demonstração.</strong>
+                        </p>
+
+                    </article>
+
+                </div>
+
+            </section>
+
+            <!-- CHAMADA FINAL -->
+            <section class="chamada-final" aria-labelledby="chamada-final-titulo" data-aos="fade-up">
+
+                <div class="chamada-final-conteudo">
+
+                    <h2 id="chamada-final-titulo">
+                        Tenha uma visão mais clara do seu estoque.
+                    </h2>
+
+                    <p>
+                        Organize produtos, acompanhe movimentações e identifique itens que precisam de atenção em uma
+                        interface pensada para pequenos negócios.
+                    </p>
+
+                    <a class="botao botao-principal" href="#painel">
+                        Explorar o Teu Estoque
+                    </a>
+
+                </div>
+
+            </section>
+
+            <!-- FAQ -->
+            <section class="faq" id="faq" aria-labelledby="faq-titulo">
+
+                <header class="secao-cabecalho" data-aos="fade-up">
+                    <h2 id="faq-titulo">Perguntas frequentes</h2>
+                </header>
+
+                <div class="faq-lista" data-aos="fade-up">
+
+                    <details class="faq-item">
+                        <summary>O que é o Teu Estoque?</summary>
+                        <p>
+                            O Teu Estoque é uma solução fictícia desenvolvida para demonstrar uma forma simples de
+                            organizar e visualizar informações de estoque em pequenos negócios.
+                        </p>
+                    </details>
+
+                    <details class="faq-item">
+                        <summary>Quais informações podem ser acompanhadas?</summary>
+                        <p>
+                            A proposta apresenta produtos, quantidades, categorias, movimentações e estados como
+                            disponível, estoque baixo e sem estoque.
+                        </p>
+                    </details>
+
+                    <details class="faq-item">
+                        <summary>Como os produtos com estoque baixo são identificados?</summary>
+                        <p>
+                            O painel utiliza indicadores visuais para destacar itens com quantidade reduzida e facilitar
+                            sua identificação.
+                        </p>
+                    </details>
+
+                    <details class="faq-item">
+                        <summary>O Teu Estoque é um sistema comercial real?</summary>
+                        <p>
+                            Não. O Teu Estoque é um projeto acadêmico demonstrativo. Os dados, depoimentos e exemplos
+                            apresentados na página são fictícios.
+                        </p>
+                    </details>
+
+                </div>
+
+            </section>
+
+        </main>
+
+        <!-- FOOTER -->
+        <footer class="footer">
+
+            <div class="footer-conteudo">
+
+                <div class="footer-identidade">
+
+                    <a href="#inicio" class="footer-logo">
+                        Teu Estoque
+                    </a>
+
+                    <p>
+                        Solução demonstrativa de gerenciamento de estoque criada para apresentar uma experiência simples
+                        e organizada para pequenos negócios.
+                    </p>
+
+                </div>
+
+                <nav class="footer-nav" aria-label="Navegação do rodapé">
+                    <ul>
+                        <li><a href="#inicio">Início</a></li>
+                        <li><a href="#recursos">Recursos</a></li>
+                        <li><a href="#como-funciona">Como funciona</a></li>
+                        <li><a href="#vantagens">Vantagens</a></li>
+                        <li><a href="#faq">FAQ</a></li>
+                    </ul>
+                </nav>
+
+            </div>
+
+            <div class="footer-informacoes">
+
+                <p>
+                    <strong>Projeto acadêmico demonstrativo.</strong>
+                </p>
+
+                <p>
+                    <strong>
+                        Os dados e exemplos apresentados nesta página são fictícios.
+                    </strong>
+                </p>
+
+                <p>
+                    © 2026 Teu Estoque. Projeto desenvolvido para fins acadêmicos.
+                </p>
+
+            </div>
+
+        </footer>
+
+        <!-- AOS 2.3.1 -->
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+        <!-- JavaScript do projeto -->
+        <script src="script.js"></script>
+
+    </body>
+
+</html>
